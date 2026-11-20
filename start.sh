@@ -8,7 +8,7 @@ nginx -g "daemon off;" &
 NGINX_PID=$!
 
 # 2️⃣ Activate the Python virtual environment
-source /opt/venv/bin/activate
+. /opt/venv/bin/activate
 
 # 3️⃣ Set default env vars (Render can override these)
 : "${DATABASE_URL:=sqlite:///kyc_audit.db}"
