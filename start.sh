@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 # -------------------------------------------------
 # Run both the static site (nginx) and the API (uvicorn)
 # -------------------------------------------------
