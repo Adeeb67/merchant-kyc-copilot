@@ -30,8 +30,8 @@ COPY --from=backend-builder /opt/venv /opt/venv
 COPY --from=backend-builder /app/backend /app/backend
 
 # Expose ports
-EXPOSE 80   # Nginx serving static assets
-EXPOSE 8000 # Backend API
+EXPOSE 80
+EXPOSE 8000
 
 # 3️⃣ Entrypoint script
 COPY start.sh /start.sh
